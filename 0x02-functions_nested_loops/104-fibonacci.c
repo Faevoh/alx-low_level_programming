@@ -30,7 +30,7 @@ int main(void)
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", c + (d / 1000000000));
-		printf("%lu", c % 1000000000);
+		printf("%lu", d % 1000000000);
 		c = c + a;
 		a = c - a;
 		d = d + b;
