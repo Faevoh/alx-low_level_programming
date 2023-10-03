@@ -14,7 +14,7 @@ int main(void)
 	{
 		if ((c % 2 == 0) && (c <= 4000000))
 		{
-			total = total + y;
+			total = total + c;
 		}
 		add = b + c;
 		b = c;
