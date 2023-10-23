@@ -12,7 +12,7 @@ int main(void)
 {
 	int s;
 	char k;
-	int final
+	int final;
 
 	srand(time(NULL));
 	s = 0;
