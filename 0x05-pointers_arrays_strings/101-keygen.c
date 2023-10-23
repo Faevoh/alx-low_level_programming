@@ -23,7 +23,7 @@ int main(void)
 		putchar(k);
 	}
 
-	int final = 2772 -s;
+	final = 2772 -s;
 	if (final < 32 || final > 126) 
 	{
 		final = 'A';
