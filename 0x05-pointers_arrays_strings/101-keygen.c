@@ -12,16 +12,23 @@ int main(void)
 {
 	int s;
 	char k;
+	int final
 
 	srand(time(NULL));
 	s = 0;
 	while (s <= 2645)
 	{
-		k = rand() % 128;
+		k = (rand() % 94) + 32;
 		s += k;
 		putchar(k);
 	}
-	putchar(2772 - s);
+
+	int final = 2772 -s;
+	if (final < 32 || final > 126) 
+	{
+		final = 'A';
+	}
+	putchar(final);
 
 	return (0);
 }
