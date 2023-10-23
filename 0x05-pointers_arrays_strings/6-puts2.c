@@ -2,7 +2,7 @@
 
 /**
   * puts2 - prints even characters of a string
-  * @str - string placeholder
+  * @str: string placeholder
   * Return: 0
   */
 
