@@ -4,7 +4,7 @@
 /**
   *free_grid - Frees a 2D grid
   *@grid: multidimentional array of integers
-  *height: height of the grid
+  *@height: height of the grid
   *Return: 0
   */
 
